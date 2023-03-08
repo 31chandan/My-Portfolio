@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+}
+/*................HeroSection.....................*/
+
+.HeroSection{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,200,0.7),rgba(0,0,200,0.7)), url("./images/HeroSecGif.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.HeroSection .HeroSecHeading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    word-spacing: 2px;
+}
+.HeroSection .HeroSecHeading span{
+    color: #800000;
+}
+
+.HeroSection .HeroSecBtn{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+.HeroSection .HeroSecBtn .btnText a{
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s ease;
+}
+.HeroSection .HeroSecBtn .btnText a:hover{
+    color: #fff;
+    background-color: #00008B;   
+}
+
+/*................nAVIGATION SECTION.....................*/
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #0000A5;
+    border-bottom: 3px solid #000000;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+}
+.nav ul li{
+    padding: 20px 0 20px 20px;
+}
+.nav ul li #home{
+    color: #800000;
+    font-weight: 500;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s ease;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.nav ul li a:hover{
+    color: #800000;
+}
+
+/*................Container1 SECTION.....................*/
+
+.container1{
+    width: 80%;
+    margin: auto;
+}
+
+/*................ABOUT SECTION.....................*/
+.container1 #About{
+    width: 100%;
+    margin: 100px 0 150px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.container1 #About .AboutTitle{
+    color: #0000A5;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contant{
+    content: "";
+    width: 90px;
+    border-bottom:5px solid #0000A5;
+    position: absolute;
+    top: 55px;
+    left: 46%;
+}
+
+.container1 #About .AboutsubSec1{
+    width: 100%;
+    margin: 100px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.container1 #About .AboutsubSec1 .AboutsubSec1Colum{
+    width: 20%;
+}
+.container1 #About .AboutsubSec1 .AboutsubSec1Colum i{
+   font-size: 100px;
+   color: #1E90FF;
+}
+.container1 #About .AboutsubSec1 .AboutsubSec1Colum h2{
+    font-size: 35px;
+    color: #0000A5;
+    margin-top: 20px;
+ }
+ .container1 #About .AboutsubSec1 .AboutsubSec1Colum p{
+    font-size: 20px;
+    color: #000000;
+    margin-top: 5px;
+    text-align: center;
+ }
+
+ .container1 #About .AboutsubSec2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 80px;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum1 .MyImg{
+    width: 60%;
+    margin-left: 85px;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum1 .MyImg img{
+    width: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 25px;
+    box-shadow: 10px 10px 12px #00008B;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum1 h2{
+    font-size: 35px;
+    color: #0000A5;
+    margin-top: 20px;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum1 p{
+    font-size: 20px;
+    color: #000000;
+    margin-top: 5px;
+    text-align: center;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum1 p span{
+    color: #1E90FF;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum1 .AboutColum1Link a{
+    font-size: 20px;
+    color: #1E90FF;
+    margin-top: 5px;
+    text-decoration: none;
+ }
+
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0 0 0;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2 .AboutColum2rows{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    background-color: #c0c0c0;
+    margin-top: 20px;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2 .AboutColum2rows .AboutColum2rowsCol1{
+    width: 25%;
+    height: 30px;
+    color: #fff;
+    background-color: #1E90FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2 .AboutColum2rows .AboutColum2rowsCol2{
+    width: 65%;
+    height: 30px;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2 .AboutColum2rows .AboutColum2rowsCol3{
+    width: 10%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2 .AboutColum2rows .AboutColum2rowsCol2 .AboutColum2rowsCol2Per1{
+    width: 90%;
+    height: 30px;
+    background-color: #0000A5;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2 .AboutColum2rows .AboutColum2rowsCol2 .AboutColum2rowsCol2Per2{
+    width: 70%;
+    height: 30px;
+    background-color: #0000A5;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2 .AboutColum2rows .AboutColum2rowsCol2 .AboutColum2rowsCol2Per3{
+    width: 80%;
+    height: 30px;
+    background-color: #0000A5;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2 .AboutColum2rows .AboutColum2rowsCol2 .AboutColum2rowsCol2Per4{
+    width: 65%;
+    height: 30px;
+    background-color: #0000A5;
+ }
+ .container1 #About .AboutsubSec2 .AboutsubSec2Colum2 .AboutColum2rows .AboutColum2rowsCol2 .AboutColum2rowsCol2Per5{
+    width: 50%;
+    height: 30px;
+    background-color: #0000A5;
+ }
+ /*................CONTAINER2 SECTION.....................*/
+ .container2{
+    width: 100%;
+    background-color: #c0c0c0;
+}
+ /*................PROJECTS SECTION.....................*/
+
+#projects{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.container2 #projects .projectsTitle{
+    color: #0000A5;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contant1{
+    content: "";
+    width: 90px;
+    border-bottom:5px solid #0000A5;
+    position: absolute;
+    top: 55px;
+    left: 46%;
+}
+
+.container2 #projects .projectsNav{
+    width: 100%;
+    height: 35px;
+    margin-top: 75px;
+}
+.container2 #projects .projectsNav ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+.container2 #projects .projectsNav ul li{
+    width: 25%;
+    font-size: 30px;
+    color: #fff;
+    transition: 3s ease;
+}
+.container2 #projects .projectsNav ul .projectNavLi1Color{
+    background-color: #800000;
+}
+.container2 #projects .projectsNav ul li:hover{
+    background-color: #800000;
+}
+
+.container2 #projects .projectsListImg{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.container2 #projects .projectsListImg a{
+    width:33%;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.container2 #projects .projectsListImg a:hover{
+    width:40%;
+    cursor: pointer;
+}
+.container2 #projects .projectsListImg a img{
+    width:100%;
+}
+.container2 #projects .projectsListImg a img:hover{
+    width:100%;
+    border-radius: 25px;
+}
+
+/*................Container3 SECTION.....................*/
+
+.container3{
+    width: 80%;
+    margin: auto;
+}
+
+/*................Educations SECTION.....................*/
+.container3 #EDUCATIONS{
+    width: 100%;
+    margin: 100px 0 150px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container3 #EDUCATIONS .EDUCATIONSTitle{
+    color: #0000A5;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contant3{
+    content: "";
+    width: 200px;
+    border-bottom:5px solid #0000A5;
+    position: absolute;
+    top: 55px;
+    left: 40%;
+}
+.container3 #EDUCATIONS .EducationsDetails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 75px;
+}
+.container3 #EDUCATIONS .EducationsDetails .EducationsDetailsColums{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1.5px solid #1E90FF;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.container3 #EDUCATIONS .EducationsDetails .EducationsDetailsColums:hover{
+    box-shadow: 8px 8px 10px #c0c0c0;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+.container3 #EDUCATIONS .EducationsDetails .EducationsDetailsColums a{
+    width: 100%;
+    padding: 8px;
+}
+.container3 #EDUCATIONS .EducationsDetails .EducationsDetailsColums a img{
+    width: 60%;
+    border-radius: 50%;
+}
+.container3 #EDUCATIONS .EducationsDetails .EducationsDetailsColums h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #0000A5;
+}
+.container3 #EDUCATIONS .EducationsDetails .EducationsDetailsColums h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 10px;
+}
+.container3 #EDUCATIONS .EducationsDetails .EducationsDetailsColums p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-align: justify;
+    line-height: 18px;
+    margin-top: 8px;
+    padding: 8px;
+}
+/*................CONTAINER4 SECTION.....................*/
+.container4{
+    width: 100%;
+    height: 1000px;
+    background: url("./images/ContactBg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 110;
+}
+
+ /*................Contact SECTION.....................*/
+
+ #Contact{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.container4 #Contact .ContactTitle{
+    color: #fff;
+    font-size: 50px;
+    padding-top: 500px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contant4{
+    content: "";
+    width: 90px;
+    border-bottom:5px solid #fff;
+    position: absolute;
+    top: 555px;
+    left: 46%;
+}
+.container4 #Contact p{
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 900;
+    color: aqua;
+    word-spacing: 3px;
+}
+.container4 #Contact .FormContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+}
+#ContactForm{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#ContactForm input,
+#ContactForm textarea{
+    outline: none;
+    background-color: #0000A5;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0 5px 15px;
+    border: none;
+    height: 40px;
+    margin-top: 8px;
+}
+#ContactForm textarea{
+    height: 150px;
+}
+#ContactForm .btn{
+    width: 100%;
+    text-align: end;
+    margin-top: 8px;
+}
+#ContactForm .btn button{
+    width: 23%;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    transition: 1s ease;
+}
+#ContactForm .btn button:hover{
+    border: none;
+    background-color: aqua;
+    color: #000000;
+    border-radius: 20px;
+}
+
+/* ...............................Footer Section.................................... */
+.Container5{
+    width: 100%;
+    height: 200px;
+    background-color: #00008B;
+}
+.Container5 #Footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Container5 #Footer .uppArrow{
+    margin-top: -20px;
+}
+.Container5 #Footer .uppArrow i{
+    background-color: purple;
+    color: #fff;
+    padding: 3px;
+    font-size: 55px;
+}
+.Container5 #Footer .icons{
+    width: 100%;
+    margin-top: 35px;
+}
+.Container5 #Footer .icons i{
+    width: 60px;
+    height: 60px;
+    background-color: #1E90FF;
+    color: #000000;
+    padding: 18px;
+    font-size: 25px;
+    margin-left: 20px;
+    transition: 0.5s ease;
+}
+.Container5 #Footer .icons i:hover{
+    background-color: aqua;
+    color: #000000;
+}
+.Container5 #Footer p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+.Container5 #Footer p span{
+    color: #800000;
+}
+
+
+/* Special page html styling */
+
+.Specialpage{
+    width: 100%;
+    height: 100vh;
+    background-color: #c0c0c0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.Specialpage h1{
+    width: 100%;
+    color: #800000;
+    padding-top: 100px;
+
+}
+.Specialpage img{
+    padding-top: 50px;
+    margin-left: 44%;
+}
+
+
+
